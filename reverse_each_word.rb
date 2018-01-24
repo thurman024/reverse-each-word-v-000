@@ -4,6 +4,6 @@ def reverse_each_word(string)
   array.collect do |word|
     word.reverse
   end
-  require pry
+  require 'pry'
   binding.pry
 end
